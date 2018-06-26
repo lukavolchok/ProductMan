@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .1s ease-in-out;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background: #eeeeee;
+    
+
+}
+
+.prod-header {
+    display: block;
+    height: 85px;
+}
+
+.prod-header h1 {
+    margin-top: 35px;
+    float: left;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 2.5px;
+    color: #303030;
+}
+
+.prod-header a {
+    text-decoration: none;
+    color: #303030;
+    background: rgba(#fff, #fff, #fff, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.prod-header .prod-header-a:hover {
+    color: #e10011;
+    background: #cbcbcb;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.prod-header .fa:hover {
+    color: #e10011;
+}
+
+.prod-header-a {
+    font-family: Roboto, sans-serif;
+}
+
+.prod-header ul {
+    float: right;
+    margin-top: 60px;
+}
+
+.prod-header ul li {
+    font-size: 18px;
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+.prod-slider {
+
+    height: 780px;
+    background: url("../images/bg_gradient.png") top center no-repeat;
+    background-position: right top;
+}
+
+.prod-slider-content {
+    padding-top: 100px;
+    height: 491px;
+}
+
+.prod-slider-text {
+    margin-left: 0;
+    width: 615px;
+    height: 491px;
+    text-align: right;
+    display: inline-block;
+}
+
+.prod-slider-text h2 {
+    font: 900 150px/140px Raleway, sans-serif;
+    text-transform: uppercase;
+    color: #303030;
+    padding-bottom: 30px;
+}
+
+.prod-slider p {
+    font: 300 24px Roboto, sans-serif;
+    color: #303030;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.prod-slider-text a {
+    text-decoration: none;
+    color: #e10011;
+    font: 700 24px Roboto, sans-serif;
+}
+
+.prod-slider-image{
+    display: inline-block;
+    width: 380px;
+    height: 491px;
+}
+
+.prod-slider-image img {
+    padding-left: 100px;
+}
+
+.prod-main {
+    background: #fff;
+    height: 1193px;
+    text-align: center;
+}
+
+.prod-main h2 {
+    font: 900 48px Raleway, sans-serif;
+    padding-top: 110px;
+    color: #303030;
+    letter-spacing: 2.5px;
+}
+
+.prod-main h2 ~ img {
+    padding-top: 20px;
+}
+
+.prod-main p {
+    width: 585px;
+    margin: 0 auto;
+    color: #303030;
+    font: 400 18px Raleway, sans-serif;
+}
+
+.prod-main-photo {
+    width: 1060px;
+    height: 810px;
+    font-size: 90px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+
+
+.prod-main-img1 {
+    width: 692px;
+    height: 47%;
+    background: #eeeeee url("../images/speaker.png");
+    background-position: 250% 65%;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.prod-main-img2 {
+    width: 325px;
+    height: 47%;
+    background: #eeeeee url("../images/mainhp.png") no-repeat;
+    background-position: 20% 100%;
+    background-size: 480px auto;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.prod-main-pic {
+    vertical-align: top;
+    height: 47%;
+    width: 31%;
+    background: #e10011;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.prod-main-pic p {
+    color: #fff;
+    font: 900 30px Roboto, sans-serif;
+    padding-left: 30px;
+    padding-top: 80%;
+}
+
+.prod-main-pic p span {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+}
+
+.prod-main-img3 {
+    display: inline-block;
+    height: 47%;
+    width: 31%;
+    border-radius: 3px;
+    background: #eeeeee url("../images/shoes.png") no-repeat;
+    background-position: 90% 35%;
+    box-sizing: border-box;
+}
+
+.prod-main-img4 {
+    width: 31%;
+    height: 47%;
+    background: #eeeeee url("../images/tumblr.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 550px auto;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.prod-subscribe {
+    text-align: center;
+}
+
+.prod-subscribe h2 {
+    font: 900 48px Raleway, sans-serif;
+    color: #303030;
+    padding-top: 100px;
+}
+
+.prod-subscribe p {
+    width: 585px;
+    font: 400 18px Raleway, sans-serif;
+    margin: 0 auto;
+    color: #303030;
+    padding-top: 25px;
+
+}
+
+.prod-email {
+    padding-top: 30px;
+    font-size: 0;
+    height: 130px;
+}
+
+
+.prod-subscribe-enter {
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.prod-subscribe-btn {
+    display: inline-block;
+    position: relative;
+}
+
+input[type="email"] {
+    width: 500px;
+    background: #fff;
+    color: #979797;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font: 700 18px Raleway, sans-serif;
+    font-style: italic;
+    outline: none;
+}
+
+
+.prod-subscribe-enter i {
+    position: absolute;
+    color: #979797;
+    font-size: 18px;
+    top: 26px;
+    left: 30px;
+}
+
+input[type="submit"] {
+    width: 210px;
+    background: #e10011;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 30px;
+    font: 900 18px Roboto, sans-serif;
+    text-transform: uppercase;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    outline: none;
+}
+
+input[type="submit"]:active {
+    background: #c10210;
+}
+
+.prod-subscribe-btn i {
+    position: absolute;
+    top: 24px;
+    right: 60px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.prod-footer {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.prod-footer .sm {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.prod-footer .sm-c {
+    padding-top: 15px;
+}
+
+.prod-footer .sm-c a{
+    font-size: 34px;
+    color: #979797;
+}
+
+.prod-footer p {
+    padding-top: 60px;
+    color: #979797;
+    font: 400 18px Raleway, sans-serif;
+    padding-bottom: 30px;
+}
+
+.prod-footer p a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.prod-footer .fa:hover {
+    color: #e10011;
+    transition: all .1s ease-in;;
+}
